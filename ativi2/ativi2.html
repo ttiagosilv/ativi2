@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Funções em JavaScript</title>
+    <script src="script.js"></script> <!-- Referência ao arquivo JavaScript externo -->
+</head>
+<body>
+
+    <h2>1) Saudação (Boa Tarde / Boa Noite)</h2>
+    Nome: <input type="text" id="nome" placeholder="Digite seu nome">
+    <button onclick="boaTarde()">Boa Tarde</button>
+    <button onclick="boaNoite()">Boa Noite</button>
+    <div id="mensagem"></div>
+
+    <hr>
+
+    <h2>2) Funções da Biblioteca Math</h2>
+    <button onclick="mostrarRandomico()">Número Randômico (1-10)</button>
+    <button onclick="mostrarAbsoluto()">Valor Absoluto</button>
+    <button onclick="mostrarMaior()">Maior Número</button>
+    <button onclick="mostrarArredondado()">Número Arredondado</button>
+    <button onclick="mostrarPotencia()">Potência</button>
+    <div id="resultado"></div>
+
+    <hr>
+
+    <h2>3) Manipulação de Strings</h2>
+    Texto: <input type="text" id="texto" placeholder="Digite um texto">
+    <button onclick="mostrarTamanho()">Exibir Tamanho</button>
+    <button onclick="converterMinusculo()">Converter para Minúsculo</button>
+    <button onclick="substituirLetras()">Substituir Letras</button>
+    <button onclick="removerEspacos()">Remover Espaços</button>
+    <div id="resultadoTexto"></div>
+
+    <hr>
+
+    <h2>4) Outras Funcionalidades</h2>
+    <h3>a) Nome Completo</h3>
+    Nome: <input type="text" id="nomeCompleto">
+    Sobrenome: <input type="text" id="sobrenome">
+    <button onclick="exibirNomeCompleto()">Exibir Nome Completo</button>
+    <div id="nomeCompletoResultado"></div>
+
+    <h3>b) Soma e Diferença de Números</h3>
+    Número 1: <input type="number" id="num1">
+    Número 2: <input type="number" id="num2">
+    <button onclick="calcular()">Calcular</button>
+    <div id="resultadoCalc"></div>
+
+    <h3>c) Limpar Caixa de Texto</h3>
+    <input type="text" id="caixaLimpar">
+    <button onclick="limparCaixa()">Limpar Caixa</button>
+
+    <h3>d) Copiar Texto de uma Caixa para Outra</h3>
+    Texto 1: <input type="text" id="caixa1">
+    Texto 2: <input type="text" id="caixa2">
+    <button onclick="copiarTexto()">Copiar</button>
+
+</body>
+</html>
